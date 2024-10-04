@@ -22,8 +22,8 @@ struct AboutView: View {
                         .frame(width: 250, height:  80)
                         .padding(.vertical, 40)
 
-                    Link("View Our Terms of Service",
-                          destination: URL(string: "https://www.cesaribarra.net")!)
+//                    Link("View Our Terms of Service",
+//                          destination: URL(string: "https://www.cesaribarra.net")!)
                     .buttonStyle(.borderedProminent)
                     Spacer()
                     Text("Nuestra aplicación de radio utiliza la plataforma de Zeno.fm, la cual incorpora licencias de música de BMI y ASCAP para la transmisión dentro de la plataforma. Estas licencias cubren la música transmitida específicamente en la plataforma de Zeno.fm para estaciones y oyentes en Estados Unidos. El contenido musical se reproduce a través de enlaces proporcionados por Zeno.fm, asegurando la legalidad de la transmisión dentro del alcance de las licencias existentes.")
