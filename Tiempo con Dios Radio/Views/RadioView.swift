@@ -10,7 +10,7 @@ import SwiftUI
 struct RadioView: View {
     func playSound() {
         //streaming url
-        soundManager.playSound(sound: "https://stream.zeno.fm/ahrgg3dkunhvv.pls")
+        soundManager.playSound(sound: "YOUR-STREAMING-URL")
         playAudioBackground()
         audioPlay.toggle()
         
@@ -74,7 +74,7 @@ struct RadioView: View {
                 Spacer()
                 
                 // MARK: - ADMOB
-                BannerAd(unitID: "ca-app-pub-9405221176366476/7571517303")
+                BannerAd(unitID: "YOUR-UNIT-ID")
                     .frame(width: 320, height: 50)
                     .padding()
                 
